@@ -7,4 +7,7 @@ class User < ApplicationRecord
   has_many :post_images, dependent: :destroy
   has_many :post_comments, dependent: :destroy
   has_many :favorites, dependent: :destroy
+
+  # refileで画像のカラムを指定（カラム名から_idを除いたもの）
+  attachment :profile_image
 end
