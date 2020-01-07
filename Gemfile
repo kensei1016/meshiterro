@@ -68,3 +68,5 @@ gem "refile-mini_magick"
 
 gem 'hirb'
 gem 'hirb-unicode'
+
+gem 'kaminari', '~> 1.1.1'
