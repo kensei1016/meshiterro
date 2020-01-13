@@ -70,3 +70,7 @@ gem 'hirb'
 gem 'hirb-unicode'
 
 gem 'kaminari', '~> 1.1.1'
+
+group :production do
+  gem 'mysql2'
+end
